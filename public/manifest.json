@@ -1,0 +1,27 @@
+{
+  "name": "Berani Bicara - Platform Pelaporan Perundungan",
+  "short_name": "Berani Bicara",
+  "description": "Platform pelaporan perundungan yang aman, anonim, dan terhubung langsung dengan pihak sekolah",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#36A395",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/LogoKotakBuatDepan.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/LogoKotakBuatDepan.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "social", "utilities"],
+  "lang": "id",
+  "dir": "ltr"
+}

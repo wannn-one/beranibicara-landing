@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* Configure dark mode with custom variant */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Custom CSS Variables for consistent theming */
+:root {
+  --color-primary: #36A395;
+  --color-primary-hover: #2d8a7a;
+  --color-secondary: #3b82f6;
+  --color-secondary-hover: #2563eb;
+}
+
+/* Global dark mode styles */
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html.dark {
+  background-color: #111827; /* gray-900 */
+  color: #f9fafb; /* gray-50 */
+}
+
+body {
+  transition: background-color 0.3s ease;
+}
+
+html.dark body {
+  background-color: #111827; /* gray-900 */
+}
+
+/* Page Transitions */
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.page-enter-from {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.page-enter-to,
+.page-leave-from {
+  opacity: 1;
+  transform: translateY(0);
+}
