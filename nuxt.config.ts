@@ -14,14 +14,12 @@ export default defineNuxtConfig({
     preset: 'static',
     compressPublicAssets: true,
     minify: true,
-    routeRules: {
-      // Homepage pre-rendered at build time
-      '/': { prerender: true },
-      // Privacy and Terms pages cached for 1 hour
-      '/privacy-policy': { headers: { 'cache-control': 's-maxage=3600' } },
-      '/terms-of-service': { headers: { 'cache-control': 's-maxage=3600' } },
-      // Static assets cached for 1 year
-      '/assets/**': { headers: { 'cache-control': 's-maxage=31536000' } },
+    prerender: {
+      routes: [
+        '/',
+        '/privacy-policy', 
+        '/terms-of-service'
+      ]
     }
   },
 
