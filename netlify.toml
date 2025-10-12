@@ -1,9 +1,9 @@
 [build]
-  # Build command
+  # Build command for static generation
   command = "npm run build"
   
-  # Directory to publish (Nuxt builds to .output/public)
-  publish = ".output/public"
+  # Directory to publish (Nuxt static preset outputs to dist)
+  publish = "dist"
 
 [build.environment]
   # Environment variables for build

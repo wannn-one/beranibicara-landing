@@ -7,11 +7,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   
   // Static Site Generation untuk Netlify
-  ssr: true,
+  ssr: false,
 
   // Performance and Caching Optimizations
   nitro: {
-    preset: 'netlify',
+    preset: 'static',
     compressPublicAssets: true,
     minify: true,
     routeRules: {
