@@ -91,11 +91,6 @@ Berani Bicara Ecosystem:
    ├── Feature demonstrations
    └── Legal pages
 
-📊 Admin Dashboard (beranibicara-admin)
-   ├── School admin panel
-   ├── Report management
-   ├── User management
-   └── Analytics & reporting
 ```
 
 ## 🚀 Quick Start
@@ -108,7 +103,7 @@ Berani Bicara Ecosystem:
 
 ```bash
 # Clone repository
-git clone <repository-url>
+git clone https://github.com/wannn-one/beranibicara-landing.git
 cd beranibicara-landing
 
 # Install dependencies
