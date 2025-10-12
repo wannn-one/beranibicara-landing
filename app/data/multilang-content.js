@@ -6,8 +6,8 @@ export const multiLangContent = {
       title: 'Berani Bicara - Platform Pelaporan Perundungan yang Aman',
       description: 'Platform pelaporan perundungan yang aman, anonim, dan terhubung langsung dengan pihak sekolah untuk penanganan yang cepat dan tepat.',
       keywords: 'berani bicara, pelaporan perundungan, bullying, sekolah, aman, anonim',
-      ogImage: 'https://beranibicara.app/og-image.png',
-      url: 'https://beranibicara.app'
+      ogImage: 'https://beranibicara.site/og-image.png',
+      url: 'https://beranibicara.site'
     },
 
     // Hero Section
@@ -204,8 +204,8 @@ export const multiLangContent = {
       title: 'Berani Bicara - Safe Bullying Report Platform',
       description: 'A safe, anonymous bullying report platform directly connected to school authorities for fast and appropriate handling.',
       keywords: 'berani bicara, bullying report, bullying, school, safe, anonymous',
-      ogImage: 'https://beranibicara.app/og-image.png',
-      url: 'https://beranibicara.app'
+      ogImage: 'https://beranibicara.site/og-image.png',
+      url: 'https://beranibicara.site'
     },
 
     // Hero Section

@@ -42,8 +42,11 @@ export default defineNuxtConfig({
         { property: 'og:title', content: siteContent.meta.title },
         { property: 'og:description', content: siteContent.meta.description },
         { property: 'og:image', content: siteContent.meta.ogImage },
+        { property: 'og:image:secure_url', content: siteContent.meta.ogImage },
+        { property: 'og:image:type', content: 'image/png' },
         { property: 'og:image:width', content: '1200' },
         { property: 'og:image:height', content: '630' },
+        { property: 'og:image:alt', content: 'Berani Bicara - Platform Pelaporan Perundungan yang Aman' },
         { property: 'og:url', content: siteContent.meta.url },
         
         // Twitter Card

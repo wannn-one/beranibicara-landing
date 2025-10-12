@@ -5,8 +5,8 @@ export const siteContent = {
     title: 'Berani Bicara - Platform Pelaporan Perundungan yang Aman',
     description: 'Platform pelaporan perundungan yang aman, anonim, dan terhubung langsung dengan pihak sekolah untuk penanganan yang cepat dan tepat.',
     keywords: 'berani bicara, pelaporan perundungan, bullying, sekolah, aman, anonim',
-    ogImage: 'https://beranibicara.app/og-image.png',
-    url: 'https://beranibicara.app'
+    ogImage: 'https://beranibicara.site/og-image.png',
+    url: 'https://beranibicara.site'
   },
 
   // Hero Section
