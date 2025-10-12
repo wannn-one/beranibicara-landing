@@ -200,6 +200,125 @@ export const legalContent = {
           }
         }
       ]
+    },
+    accountDeletion: {
+      title: 'Permintaan Penghapusan Akun & Data',
+      description: 'Anda memiliki hak penuh untuk meminta penghapusan akun dan semua data terkait dari layanan BeraniBicara. Halaman ini menjelaskan cara menghapus akun Anda dan data yang akan dihapus.',
+      lastUpdated: 'Terakhir diperbarui: 12 Oktober 2025',
+      backToHome: 'Kembali ke Beranda',
+      sections: [
+        {
+          title: 'Cara Menghapus Akun Anda',
+          description: 'Kami menyediakan dua cara mudah untuk menghapus akun Anda:',
+          methods: [
+            {
+              title: 'Melalui Aplikasi (Direkomendasikan)',
+              description: 'Cara termudah dan tercepat untuk menghapus akun Anda:',
+              steps: [
+                'Buka aplikasi BeraniBicara dan masuk ke akun Anda',
+                'Pergi ke halaman Profil atau Pengaturan',
+                'Gulir ke bawah dan ketuk tombol "Hapus Akun Saya"',
+                'Ikuti instruksi konfirmasi untuk menyelesaikan proses',
+                'Akun dan semua data akan dihapus secara permanen dalam 24 jam'
+              ],
+              note: 'Proses ini akan secara otomatis menghapus semua data Anda dari sistem kami.'
+            },
+            {
+              title: 'Melalui Email (Jika Tidak Bisa Mengakses Aplikasi)',
+              description: 'Jika Anda tidak dapat mengakses aplikasi, kirim permintaan melalui email:',
+              steps: [
+                'Kirim email ke: ikhwanulabiyu@gmail.com',
+                'Gunakan subjek: "Permintaan Penghapusan Akun BeraniBicara"',
+                'Sertakan email yang digunakan untuk mendaftar',
+                'Sertakan alasan penghapusan (opsional)',
+                'Tim kami akan memproses dalam 7 hari kerja'
+              ],
+              note: 'Kami akan mengirim konfirmasi setelah semua data berhasil dihapus.'
+            }
+          ]
+        },
+        {
+          title: 'Data yang Akan Dihapus',
+          description: 'Ketika Anda menghapus akun, data berikut akan dihapus secara permanen:',
+          dataTypes: [
+            {
+              category: 'Informasi Profil',
+              items: [
+                'Nama dan alamat email',
+                'Foto profil',
+                'Informasi kelas dan sekolah',
+                'Preferensi aplikasi'
+              ]
+            },
+            {
+              category: 'Data Laporan',
+              items: [
+                'Semua laporan yang pernah dibuat',
+                'Foto dan video yang diunggah',
+                'Riwayat komunikasi dengan pihak sekolah',
+                'Status dan timeline laporan'
+              ]
+            },
+            {
+              category: 'Data Teknis',
+              items: [
+                'Token autentikasi',
+                'Log aktivitas aplikasi',
+                'Data analitik penggunaan',
+                'Token notifikasi push'
+              ]
+            }
+          ]
+        },
+        {
+          title: 'Hal Penting yang Perlu Diketahui',
+          warnings: [
+            {
+              title: 'Penghapusan Permanen',
+              description: 'Setelah akun dihapus, data tidak dapat dipulihkan. Pastikan Anda telah menyimpan informasi penting sebelum menghapus akun.'
+            },
+            {
+              title: 'Laporan Aktif',
+              description: 'Jika Anda memiliki laporan yang sedang diproses, penghapusan akun tidak akan menghentikan proses tersebut. Laporan akan tetap diproses oleh pihak sekolah.'
+            },
+            {
+              title: 'Waktu Pemrosesan',
+              description: 'Penghapusan melalui aplikasi: 24 jam. Penghapusan melalui email: maksimal 7 hari kerja.'
+            },
+            {
+              title: 'Data Backup',
+              description: 'Data dalam sistem backup akan dihapus dalam waktu maksimal 30 hari setelah penghapusan akun.'
+            }
+          ]
+        },
+        {
+          title: 'Alternatif Selain Penghapusan',
+          description: 'Sebelum menghapus akun, pertimbangkan alternatif berikut:',
+          alternatives: [
+            {
+              title: 'Nonaktifkan Notifikasi',
+              description: 'Matikan semua notifikasi tanpa menghapus akun'
+            },
+            {
+              title: 'Ubah Pengaturan Privasi',
+              description: 'Sesuaikan pengaturan privasi sesuai kebutuhan Anda'
+            },
+            {
+              title: 'Logout Sementara',
+              description: 'Keluar dari aplikasi tanpa menghapus data'
+            }
+          ]
+        },
+        {
+          title: 'Hubungi Kami',
+          description: 'Jika Anda memiliki pertanyaan tentang penghapusan akun atau membutuhkan bantuan:',
+          contact: {
+            email: 'ikhwanulabiyu@gmail.com',
+            subject: 'Bantuan Penghapusan Akun BeraniBicara',
+            responseTime: 'Kami akan merespons dalam 24-48 jam'
+          }
+        }
+      ]
     }
   },
   en: {
@@ -399,6 +518,125 @@ export const legalContent = {
           description: 'For questions about these terms and conditions, please contact us:',
           contact: {
             email: 'ikhwanulabiyu@gmail.com'
+          }
+        }
+      ]
+    },
+    accountDeletion: {
+      title: 'Account & Data Deletion Request',
+      description: 'You have the full right to request deletion of your account and all related data from BeraniBicara services. This page explains how to delete your account and what data will be deleted.',
+      lastUpdated: 'Last updated: October 12, 2025',
+      backToHome: 'Back to Home',
+      sections: [
+        {
+          title: 'How to Delete Your Account',
+          description: 'We provide two easy ways to delete your account:',
+          methods: [
+            {
+              title: 'Through the App (Recommended)',
+              description: 'The easiest and fastest way to delete your account:',
+              steps: [
+                'Open the BeraniBicara app and sign in to your account',
+                'Go to Profile or Settings page',
+                'Scroll down and tap "Delete My Account" button',
+                'Follow the confirmation instructions to complete the process',
+                'Account and all data will be permanently deleted within 24 hours'
+              ],
+              note: 'This process will automatically delete all your data from our systems.'
+            },
+            {
+              title: 'Via Email (If You Cannot Access the App)',
+              description: 'If you cannot access the app, send a request via email:',
+              steps: [
+                'Send email to: ikhwanulabiyu@gmail.com',
+                'Use subject: "BeraniBicara Account Deletion Request"',
+                'Include the email used for registration',
+                'Include reason for deletion (optional)',
+                'Our team will process within 7 business days'
+              ],
+              note: 'We will send confirmation after all data has been successfully deleted.'
+            }
+          ]
+        },
+        {
+          title: 'Data That Will Be Deleted',
+          description: 'When you delete your account, the following data will be permanently deleted:',
+          dataTypes: [
+            {
+              category: 'Profile Information',
+              items: [
+                'Name and email address',
+                'Profile photo',
+                'Class and school information',
+                'App preferences'
+              ]
+            },
+            {
+              category: 'Report Data',
+              items: [
+                'All reports ever created',
+                'Uploaded photos and videos',
+                'Communication history with school authorities',
+                'Report status and timeline'
+              ]
+            },
+            {
+              category: 'Technical Data',
+              items: [
+                'Authentication tokens',
+                'App activity logs',
+                'Usage analytics data',
+                'Push notification tokens'
+              ]
+            }
+          ]
+        },
+        {
+          title: 'Important Things to Know',
+          warnings: [
+            {
+              title: 'Permanent Deletion',
+              description: 'Once your account is deleted, data cannot be recovered. Make sure you have saved important information before deleting your account.'
+            },
+            {
+              title: 'Active Reports',
+              description: 'If you have reports being processed, account deletion will not stop the process. Reports will continue to be processed by school authorities.'
+            },
+            {
+              title: 'Processing Time',
+              description: 'Deletion through app: 24 hours. Deletion via email: maximum 7 business days.'
+            },
+            {
+              title: 'Backup Data',
+              description: 'Data in backup systems will be deleted within a maximum of 30 days after account deletion.'
+            }
+          ]
+        },
+        {
+          title: 'Alternatives to Deletion',
+          description: 'Before deleting your account, consider these alternatives:',
+          alternatives: [
+            {
+              title: 'Disable Notifications',
+              description: 'Turn off all notifications without deleting your account'
+            },
+            {
+              title: 'Change Privacy Settings',
+              description: 'Adjust privacy settings according to your needs'
+            },
+            {
+              title: 'Temporary Logout',
+              description: 'Log out of the app without deleting data'
+            }
+          ]
+        },
+        {
+          title: 'Contact Us',
+          description: 'If you have questions about account deletion or need assistance:',
+          contact: {
+            email: 'ikhwanulabiyu@gmail.com',
+            subject: 'BeraniBicara Account Deletion Help',
+            responseTime: 'We will respond within 24-48 hours'
           }
         }
       ]

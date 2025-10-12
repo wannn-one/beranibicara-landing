@@ -48,6 +48,15 @@ export const multiLangContent = {
       ]
     },
 
+    // Data Deletion Page UI
+    dataDeletion: {
+      quickActions: 'Aksi Cepat',
+      sendDeletionEmail: 'Kirim Email Penghapusan',
+      legalDocuments: 'Dokumen Legal',
+      privacyPolicy: 'Kebijakan Privasi',
+      termsOfService: 'Syarat & Ketentuan'
+    },
+
     // Features Section
     features: {
       badge: 'Fitur Unggulan',
@@ -183,10 +192,11 @@ export const multiLangContent = {
            { name: 'Testimoni', href: '#testimonials' },
            { name: 'FAQ', href: '#faq' }
          ],
-         legal: [
-           { name: 'Kebijakan Privasi', href: '/privacy-policy' },
-           { name: 'Syarat & Ketentuan', href: '/terms-of-service' }
-         ]
+        legal: [
+          { name: 'Kebijakan Privasi', href: '/privacy-policy' },
+          { name: 'Syarat & Ketentuan', href: '/terms-of-service' },
+          { name: 'Penghapusan Data', href: '/data-deletion' }
+        ]
        },
        social: [
          {
@@ -244,6 +254,15 @@ export const multiLangContent = {
         { name: 'FAQ', href: '/', target: 'faq' },
         { name: 'Contact', href: '/', target: 'footer' }
       ]
+    },
+
+    // Data Deletion Page UI
+    dataDeletion: {
+      quickActions: 'Quick Actions',
+      sendDeletionEmail: 'Send Deletion Email',
+      legalDocuments: 'Legal Documents',
+      privacyPolicy: 'Privacy Policy',
+      termsOfService: 'Terms of Service'
     },
 
     // Features Section
@@ -381,10 +400,11 @@ export const multiLangContent = {
            { name: 'Testimonials', href: '#testimonials' },
            { name: 'FAQ', href: '#faq' }
          ],
-         legal: [
-           { name: 'Privacy Policy', href: '/privacy-policy' },
-           { name: 'Terms of Service', href: '/terms-of-service' }
-         ]
+        legal: [
+          { name: 'Privacy Policy', href: '/privacy-policy' },
+          { name: 'Terms of Service', href: '/terms-of-service' },
+          { name: 'Data Deletion', href: '/data-deletion' }
+        ]
        },
        social: [
          {

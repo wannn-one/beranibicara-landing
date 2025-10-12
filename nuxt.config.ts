@@ -18,7 +18,8 @@ export default defineNuxtConfig({
       routes: [
         '/',
         '/privacy-policy', 
-        '/terms-of-service'
+        '/terms-of-service',
+        '/data-deletion'
       ]
     }
   },
