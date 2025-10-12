@@ -45,7 +45,27 @@ export const multiLangContent = {
         { name: 'Testimoni', href: '/', target: 'testimonials' },
         { name: 'FAQ', href: '/', target: 'faq' },
         { name: 'Kontak', href: '/', target: 'footer' }
-      ]
+      ],
+      legalMenu: {
+        title: 'Legal',
+        items: [
+          { 
+            name: 'Kebijakan Privasi', 
+            href: '/privacy-policy', 
+            icon: 'pi-shield' 
+          },
+          { 
+            name: 'Syarat & Ketentuan', 
+            href: '/terms-of-service', 
+            icon: 'pi-file' 
+          },
+          { 
+            name: 'Penghapusan Data', 
+            href: '/data-deletion', 
+            icon: 'pi-trash' 
+          }
+        ]
+      }
     },
 
     // Data Deletion Page UI
@@ -253,7 +273,27 @@ export const multiLangContent = {
         { name: 'Testimonials', href: '/', target: 'testimonials' },
         { name: 'FAQ', href: '/', target: 'faq' },
         { name: 'Contact', href: '/', target: 'footer' }
-      ]
+      ],
+      legalMenu: {
+        title: 'Legal',
+        items: [
+          { 
+            name: 'Privacy Policy', 
+            href: '/privacy-policy', 
+            icon: 'pi-shield' 
+          },
+          { 
+            name: 'Terms of Service', 
+            href: '/terms-of-service', 
+            icon: 'pi-file' 
+          },
+          { 
+            name: 'Data Deletion', 
+            href: '/data-deletion', 
+            icon: 'pi-trash' 
+          }
+        ]
+      }
     },
 
     // Data Deletion Page UI

@@ -323,7 +323,7 @@ export const legalContent = {
   },
   en: {
     privacyPolicy: {
-      title: 'BeraniBicara App Privacy Policy',
+      title: 'Privacy Policy',
       description: 'Our commitment is to protect your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application.',
       lastUpdated: 'Last updated: October 10, 2025',
       backToHome: 'Back to Home',
@@ -427,7 +427,7 @@ export const legalContent = {
       ]
     },
     termsOfService: {
-      title: 'BeraniBicara App Terms and Conditions',
+      title: 'Terms and Conditions',
       description: 'By using the BeraniBicara app, you agree to the following terms and conditions. Please read carefully before using our services.',
       lastUpdated: 'Last updated: October 10, 2025',
       backToHome: 'Back to Home',
