@@ -91,9 +91,9 @@
               class="bg-white dark:bg-gray-900 rounded-md p-2 inline-flex items-center justify-center text-gray-400 dark:text-gray-500 hover:text-gray-500 dark:hover:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#36A395] transition-all duration-200" 
               @click="mobileMenuOpen = !mobileMenuOpen"
             >
-              <span class="sr-only">Open main menu</span>
-              <i class="pi pi-bars text-xl" :class="{ 'hidden': mobileMenuOpen, 'block': !mobileMenuOpen }"></i>
-              <i class="pi pi-times text-xl" :class="{ 'block': mobileMenuOpen, 'hidden': !mobileMenuOpen }"></i>
+              <span class="sr-only">{{ mobileMenuOpen ? 'Close menu' : 'Open menu' }}</span>
+              <i v-if="!mobileMenuOpen" class="pi pi-bars text-xl"></i>
+              <i v-else class="pi pi-times text-xl"></i>
             </button>
           </div>
         </div>

@@ -36,7 +36,7 @@
           <img 
             :src="content.howItWorks.image" 
             :alt="content.howItWorks.imageAlt || 'App demo'" 
-            class="w-[12rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[12rem] md:w-[14rem] lg:w-[18rem] ml-auto" 
+            class="w-[12rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[12rem] md:w-[14rem] lg:w-[18rem] mx-auto lg:ml-auto" 
             loading="lazy"
             style="max-width: 100%; height: auto;"
           />
