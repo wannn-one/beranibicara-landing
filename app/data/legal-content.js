@@ -4,7 +4,7 @@ export const legalContent = {
     privacyPolicy: {
       title: 'Kebijakan Privasi Aplikasi BeraniBicara',
       description: 'Komitmen kami adalah untuk melindungi privasi Anda. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, mengungkapkan, dan menjaga informasi Anda saat Anda menggunakan aplikasi seluler kami.',
-      lastUpdated: 'Terakhir diperbarui: 10 Oktober 2025',
+      lastUpdated: 'Terakhir diperbarui: 21 November 2025',
       backToHome: 'Kembali ke Beranda',
       sections: [
         {
@@ -13,9 +13,11 @@ export const legalContent = {
             {
               title: 'Informasi Pribadi',
               items: [
-                'Nama dan alamat email (untuk pembuatan akun)',
-                'Informasi kelas sekolah',
-                'Foto profil (opsional)'
+                'Nama lengkap dan alamat email (untuk pembuatan akun)',
+                'Nomor Induk Siswa Nasional (NISN) (sebagai ID Pengguna untuk verifikasi siswa)', 
+                'Informasi kelas dan jurusan',
+                'Foto profil (opsional)',
+                'User ID (UUID) yang dihasilkan sistem'
               ]
             },
             {
@@ -30,7 +32,7 @@ export const legalContent = {
             {
               title: 'Informasi Teknis',
               items: [
-                'Informasi dan pengenal perangkat',
+                'Informasi dan pengenal perangkat (Device ID)',
                 'Analitik penggunaan aplikasi',
                 'Token notifikasi push'
               ]
@@ -41,6 +43,7 @@ export const legalContent = {
           title: '2. Bagaimana Kami Menggunakan Informasi Anda',
           description: 'Kami menggunakan informasi yang dikumpulkan untuk:',
           items: [
+            'Memverifikasi identitas siswa menggunakan NISN (Pencegahan Penipuan)', // <--- DIPERJELAS
             'Menyediakan dan memelihara layanan kami',
             'Memproses dan menanggapi laporan insiden',
             'Mengirim notifikasi tentang status laporan',
@@ -82,7 +85,7 @@ export const legalContent = {
           items: [
             'Mengakses informasi pribadi Anda',
             'Memperbaiki informasi yang tidak akurat',
-            'Menghapus akun Anda dan data terkait',
+            'Menghapus akun Anda dan data terkait (termasuk data NISN)',
             'Menarik persetujuan untuk pemrosesan data'
           ]
         },
@@ -90,7 +93,7 @@ export const legalContent = {
           title: '7. Layanan Pihak Ketiga',
           description: 'Kami menggunakan layanan pihak ketiga berikut:',
           items: [
-            { service: 'Supabase', purpose: 'Database dan otentikasi' },
+            { service: 'Supabase', purpose: 'Database, Otentikasi, dan Penyimpanan File' },
             { service: 'Firebase', purpose: 'Notifikasi push' },
             { service: 'Google Sign-In', purpose: 'Opsi otentikasi' }
           ],
@@ -131,6 +134,7 @@ export const legalContent = {
           items: [
             'Berusia minimal 13 tahun atau memiliki izin dari orang tua/wali',
             'Terdaftar sebagai siswa, guru, atau staff di sekolah yang bekerja sama',
+            'Memiliki NISN yang valid dan terdaftar di sekolah', // <--- DITAMBAHKAN
             'Memberikan informasi yang akurat dan terkini',
             'Menjaga kerahasiaan akun dan kata sandi Anda'
           ]
@@ -228,10 +232,10 @@ export const legalContent = {
               description: 'Jika Anda tidak dapat mengakses aplikasi, kirim permintaan melalui email:',
               steps: [
                 'Kirim email ke: ikhwanulabiyu@gmail.com',
-                'Gunakan subjek: "Permintaan Penghapusan Akun BeraniBicara"',
-                'Sertakan email yang digunakan untuk mendaftar',
+                'Gunakan subjek: "DELETE ACCOUNT - [NISN ANDA]"', // <--- DITAMBAHKAN NISN
+                'Isi badan email: "Saya meminta penghapusan akun untuk NISN [Nomor] atas nama [Nama Lengkap]"',
                 'Sertakan alasan penghapusan (opsional)',
-                'Tim kami akan memproses dalam 7 hari kerja'
+                'Tim kami akan memverifikasi kepemilikan NISN dan menghapus data dalam 7 hari kerja'
               ],
               note: 'Kami akan mengirim konfirmasi setelah semua data berhasil dihapus.'
             }
@@ -245,6 +249,7 @@ export const legalContent = {
               category: 'Informasi Profil',
               items: [
                 'Nama dan alamat email',
+                'Data NISN (Nomor Induk Siswa Nasional)', 
                 'Foto profil',
                 'Informasi kelas dan sekolah',
                 'Preferensi aplikasi'
@@ -279,7 +284,7 @@ export const legalContent = {
             },
             {
               title: 'Laporan Aktif',
-              description: 'Jika Anda memiliki laporan yang sedang diproses, penghapusan akun tidak akan menghentikan proses tersebut. Laporan akan tetap diproses oleh pihak sekolah.'
+              description: 'Jika Anda memiliki laporan yang sedang diproses, penghapusan akun tidak akan menghentikan proses tersebut. Laporan akan tetap diproses oleh pihak sekolah, namun akan dianonimkan (tidak tertaut ke akun Anda).'
             },
             {
               title: 'Waktu Pemrosesan',
@@ -325,7 +330,7 @@ export const legalContent = {
     privacyPolicy: {
       title: 'Privacy Policy',
       description: 'Our commitment is to protect your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application.',
-      lastUpdated: 'Last updated: October 10, 2025',
+      lastUpdated: 'Last updated: November 21, 2025',
       backToHome: 'Back to Home',
       sections: [
         {
@@ -335,8 +340,10 @@ export const legalContent = {
               title: 'Personal Information',
               items: [
                 'Name and email address (for account creation)',
+                'National Student ID Number (NISN) (as User ID for student verification)', 
                 'School grade information',
-                'Profile photo (optional)'
+                'Profile photo (optional)',
+                'System-generated User ID (UUID)'
               ]
             },
             {
@@ -351,7 +358,7 @@ export const legalContent = {
             {
               title: 'Technical Information',
               items: [
-                'Device information and identifiers',
+                'Device information and identifiers (Device ID)',
                 'App usage analytics',
                 'Push notification tokens'
               ]
@@ -362,6 +369,7 @@ export const legalContent = {
           title: '2. How We Use Your Information',
           description: 'We use the collected information to:',
           items: [
+            'Verify student identity using NISN (Fraud Prevention)',
             'Provide and maintain our services',
             'Process and respond to incident reports',
             'Send notifications about report status',
@@ -403,7 +411,7 @@ export const legalContent = {
           items: [
             'Access your personal information',
             'Correct inaccurate information',
-            'Delete your account and related data',
+            'Delete your account and related data (including NISN data)',
             'Withdraw consent for data processing'
           ]
         },
@@ -411,7 +419,7 @@ export const legalContent = {
           title: '7. Third-Party Services',
           description: 'We use the following third-party services:',
           items: [
-            { service: 'Supabase', purpose: 'Database and authentication' },
+            { service: 'Supabase', purpose: 'Database, Authentication, and File Storage' },
             { service: 'Firebase', purpose: 'Push notifications' },
             { service: 'Google Sign-In', purpose: 'Authentication option' }
           ],
@@ -452,6 +460,7 @@ export const legalContent = {
           items: [
             'Be at least 13 years old or have parental/guardian permission',
             'Be registered as a student, teacher, or staff at a partnering school',
+            'Have a valid NISN registered with the school', // <--- FIXED
             'Provide accurate and current information',
             'Keep your account and password confidential'
           ]
@@ -549,10 +558,9 @@ export const legalContent = {
               description: 'If you cannot access the app, send a request via email:',
               steps: [
                 'Send email to: ikhwanulabiyu@gmail.com',
-                'Use subject: "BeraniBicara Account Deletion Request"',
-                'Include the email used for registration',
-                'Include reason for deletion (optional)',
-                'Our team will process within 7 business days'
+                'Use subject: "DELETE ACCOUNT - [YOUR NISN]"', // <--- ENGLISH VERSION FIXED
+                'Body content: "I request account deletion for NISN [Number] name [Full Name]"',
+                'Our team will verify NISN ownership and process within 7 business days'
               ],
               note: 'We will send confirmation after all data has been successfully deleted.'
             }
@@ -566,6 +574,7 @@ export const legalContent = {
               category: 'Profile Information',
               items: [
                 'Name and email address',
+                'NISN Data (National Student ID Number)', // <--- ENGLISH VERSION FIXED
                 'Profile photo',
                 'Class and school information',
                 'App preferences'
@@ -600,7 +609,7 @@ export const legalContent = {
             },
             {
               title: 'Active Reports',
-              description: 'If you have reports being processed, account deletion will not stop the process. Reports will continue to be processed by school authorities.'
+              description: 'If you have reports being processed, account deletion will not stop the process. Reports will continue to be processed by school authorities, but will be anonymized.'
             },
             {
               title: 'Processing Time',
@@ -644,7 +653,6 @@ export const legalContent = {
   }
 }
 
-// Helper function to get legal content by language
 export const getLegalContentByLanguage = (language = 'id') => {
   return legalContent[language]
 }
