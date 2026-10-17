@@ -103,7 +103,7 @@ export const legalContent = {
           title: '8. Hubungi Kami',
           description: 'Untuk pertanyaan atau permintaan terkait privasi, silakan hubungi kami melalui:',
           contact: {
-            email: 'ikhwanulabiyu@gmail.com'
+            email: 'beranibicara.site@gmail.com'
           }
         }
       ]
@@ -200,7 +200,7 @@ export const legalContent = {
           title: '13. Kontak',
           description: 'Untuk pertanyaan tentang syarat dan ketentuan ini, silakan hubungi kami:',
           contact: {
-            email: 'ikhwanulabiyu@gmail.com'
+            email: 'beranibicara.site@gmail.com'
           }
         }
       ]
@@ -231,7 +231,7 @@ export const legalContent = {
               title: 'Melalui Email (Jika Tidak Bisa Mengakses Aplikasi)',
               description: 'Jika Anda tidak dapat mengakses aplikasi, kirim permintaan melalui email:',
               steps: [
-                'Kirim email ke: ikhwanulabiyu@gmail.com',
+                'Kirim email ke: beranibicara.site@gmail.com',
                 'Gunakan subjek: "DELETE ACCOUNT - [NISN ANDA]"', // <--- DITAMBAHKAN NISN
                 'Isi badan email: "Saya meminta penghapusan akun untuk NISN [Nomor] atas nama [Nama Lengkap]"',
                 'Sertakan alasan penghapusan (opsional)',
@@ -318,7 +318,7 @@ export const legalContent = {
           title: 'Hubungi Kami',
           description: 'Jika Anda memiliki pertanyaan tentang penghapusan akun atau membutuhkan bantuan:',
           contact: {
-            email: 'ikhwanulabiyu@gmail.com',
+            email: 'beranibicara.site@gmail.com',
             subject: 'Bantuan Penghapusan Akun BeraniBicara',
             responseTime: 'Kami akan merespons dalam 24-48 jam'
           }
@@ -429,7 +429,7 @@ export const legalContent = {
           title: '8. Contact Us',
           description: 'For privacy-related questions or requests, please contact us at:',
           contact: {
-            email: 'ikhwanulabiyu@gmail.com'
+            email: 'beranibicara.site@gmail.com'
           }
         }
       ]
@@ -526,7 +526,7 @@ export const legalContent = {
           title: '13. Contact',
           description: 'For questions about these terms and conditions, please contact us:',
           contact: {
-            email: 'ikhwanulabiyu@gmail.com'
+            email: 'beranibicara.site@gmail.com'
           }
         }
       ]
@@ -557,7 +557,7 @@ export const legalContent = {
               title: 'Via Email (If You Cannot Access the App)',
               description: 'If you cannot access the app, send a request via email:',
               steps: [
-                'Send email to: ikhwanulabiyu@gmail.com',
+                'Send email to: beranibicara.site@gmail.com',
                 'Use subject: "DELETE ACCOUNT - [YOUR NISN]"', // <--- ENGLISH VERSION FIXED
                 'Body content: "I request account deletion for NISN [Number] name [Full Name]"',
                 'Our team will verify NISN ownership and process within 7 business days'
@@ -643,7 +643,7 @@ export const legalContent = {
           title: 'Contact Us',
           description: 'If you have questions about account deletion or need assistance:',
           contact: {
-            email: 'ikhwanulabiyu@gmail.com',
+            email: 'beranibicara.site@gmail.com',
             subject: 'BeraniBicara Account Deletion Help',
             responseTime: 'We will respond within 24-48 hours'
           }

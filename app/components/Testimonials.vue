@@ -21,15 +21,12 @@
                 <blockquote class="text-gray-900 dark:text-gray-100 flex-grow transition-colors duration-300">
                   <p>"{{ testimonial.quote }}"</p>
                 </blockquote>
-                <figcaption class="mt-6 flex items-center gap-x-4">
-                  <div class="h-10 w-10 rounded-full bg-gradient-to-br from-blue-600 to-[#36A395]"></div>
-                  <div>
-                    <div class="font-semibold text-gray-900 dark:text-white transition-colors duration-300">
-                      {{ testimonial.author }}
-                    </div>
-                    <div class="text-gray-600 dark:text-gray-300 transition-colors duration-300">
-                      {{ testimonial.role }}
-                    </div>
+                <figcaption class="mt-6">
+                  <div class="font-semibold text-gray-900 dark:text-white transition-colors duration-300">
+                    {{ testimonial.author }}
+                  </div>
+                  <div class="text-gray-600 dark:text-gray-300 transition-colors duration-300">
+                    {{ testimonial.role }}
                   </div>
                 </figcaption>
               </figure>

@@ -145,13 +145,13 @@ export const multiLangContent = {
            id: 1,
            quote: 'Awalnya aku takut banget mau lapor, tapi lewat aplikasi ini aku bisa cerita tanpa harus nunjukin nama. Rasanya lega banget dan masalahku akhirnya ditangani sekolah. Terima kasih Berani Bicara.',
            author: 'Budi S.',
-           role: 'Siswa Kelas 8'
+           role: 'Siswa Kelas 5A'
          },
          {
            id: 2,
            quote: 'Sebagai guru, aplikasi ini sangat membantu kami untuk mengetahui masalah yang terjadi di sekolah. Laporannya detail dan kami bisa langsung menindaklanjuti. Sangat efektif!',
            author: 'Ibu Sarah',
-           role: 'Guru BK'
+           role: 'Tim TPPK'
          },
          {
            id: 3,
@@ -166,7 +166,7 @@ export const multiLangContent = {
      faq: {
        title: 'Pertanyaan yang Sering Diajukan',
        description: 'Punya pertanyaan lain? Hubungi kami melalui email di',
-       email: 'dukungan@beranibicara.app',
+       email: 'beranibicara.site@gmail.com',
        items: [
          {
            id: 1,
@@ -196,7 +196,7 @@ export const multiLangContent = {
          {
            id: 6,
            question: 'Bagaimana cara mengunduh aplikasinya?',
-           answer: 'Aplikasi akan segera tersedia di Google Play Store dan App Store. Saat ini kami sedang dalam tahap final pengembangan dan review.'
+           answer: 'Aplikasi sudah tersedia di Google Play Store. Versi App Store belum tersedia dan masih dalam tahap persiapan.'
          }
        ]
      },
@@ -373,7 +373,7 @@ export const multiLangContent = {
            id: 1,
            quote: 'At first I was really scared to report, but through this app I could tell my story without showing my name. I felt so relieved and my problem was finally handled by the school. Thank you Berani Bicara.',
            author: 'Budi S.',
-           role: '8th Grade Student'
+           role: '5A Grade Student'
          },
          {
            id: 2,
@@ -394,7 +394,7 @@ export const multiLangContent = {
      faq: {
        title: 'Frequently Asked Questions',
        description: 'Have other questions? Contact us via email at',
-       email: 'support@beranibicara.app',
+       email: 'beranibicara.site@gmail.com',
        items: [
          {
            id: 1,
@@ -424,7 +424,7 @@ export const multiLangContent = {
          {
            id: 6,
            question: 'How do I download the app?',
-           answer: 'The app will soon be available on Google Play Store and App Store. We are currently in the final stages of development and review.'
+           answer: 'The app is now available on Google Play Store. The App Store version is not available yet and is still in preparation.'
          }
        ]
      },
