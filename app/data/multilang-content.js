@@ -20,16 +20,16 @@ export const multiLangContent = {
       downloadLinks: [
         {
           name: 'Google Play',
-          url: '#',
+          url: 'https://play.google.com/store/apps/details?id=com.beranibicara.app&pcampaignid=web_share',
           image: 'https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png',
           alt: 'Dapatkan di Google Play'
-        },
-        {
-          name: 'App Store',
-          url: '#',
-          image: '/LogoKotakBuatDepan.png',
-          alt: 'Unduh di App Store'
         }
+        // {
+        //   name: 'App Store',
+        //   url: '#',
+        //   image: '/LogoKotakBuatDepan.png',
+        //   alt: 'Unduh di App Store'
+        // }
       ]
     },
 
@@ -248,16 +248,16 @@ export const multiLangContent = {
       downloadLinks: [
         {
           name: 'Google Play',
-          url: '#',
+          url: 'https://play.google.com/store/apps/details?id=com.beranibicara.app&pcampaignid=web_share',
           image: 'https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png',
           alt: 'Get it on Google Play'
         },
-        {
-          name: 'App Store',
-          url: '#',
-          image: '/LogoKotakBuatDepan.png',
-          alt: 'Download on the App Store'
-        }
+        // {
+        //   name: 'App Store',
+        //   url: '#',
+        //   image: '/LogoKotakBuatDepan.png',
+        //   alt: 'Download on the App Store'
+        // }
       ]
     },
 

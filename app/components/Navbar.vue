@@ -84,7 +84,7 @@
             </button>
             
             <NuxtLink 
-              to="/"
+              to="https://play.google.com/store/apps/details?id=com.beranibicara.app&pcampaignid=web_share"
               class="bg-gradient-to-r from-blue-600 to-[#36A395] hover:from-blue-700 hover:to-[#2d8a7a] text-white px-4 py-2 rounded-md text-sm font-medium transition-all duration-200 shadow-lg"
             >
               {{ content.navigation.ctaText }}

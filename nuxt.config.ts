@@ -1,5 +1,7 @@
 import tailwindcss from '@tailwindcss/vite'
-import { siteContent } from './app/data/content.js'
+import { multiLangContent } from './app/data/multilang-content.js'
+
+const siteMeta = multiLangContent.id.meta
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -40,21 +42,21 @@ export default defineNuxtConfig({
         // Open Graph / Social Media
         { property: 'og:type', content: 'website' },
         { property: 'og:site_name', content: 'Berani Bicara' },
-        { property: 'og:title', content: siteContent.meta.title },
-        { property: 'og:description', content: siteContent.meta.description },
-        { property: 'og:image', content: siteContent.meta.ogImage },
-        { property: 'og:image:secure_url', content: siteContent.meta.ogImage },
+        { property: 'og:title', content: siteMeta.title },
+        { property: 'og:description', content: siteMeta.description },
+        { property: 'og:image', content: siteMeta.ogImage },
+        { property: 'og:image:secure_url', content: siteMeta.ogImage },
         { property: 'og:image:type', content: 'image/png' },
         { property: 'og:image:width', content: '1200' },
         { property: 'og:image:height', content: '630' },
-        { property: 'og:image:alt', content: 'Berani Bicara - Platform Pelaporan Perundungan yang Aman' },
-        { property: 'og:url', content: siteContent.meta.url },
+        { property: 'og:image:alt', content: siteMeta.title },
+        { property: 'og:url', content: siteMeta.url },
         
         // Twitter Card
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: siteContent.meta.title },
-        { name: 'twitter:description', content: siteContent.meta.description },
-        { name: 'twitter:image', content: siteContent.meta.ogImage },
+        { name: 'twitter:title', content: siteMeta.title },
+        { name: 'twitter:description', content: siteMeta.description },
+        { name: 'twitter:image', content: siteMeta.ogImage },
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon/favicon.ico' },

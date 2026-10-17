@@ -16,7 +16,7 @@
                 class="text-gray-500 hover:text-gray-400 transition-colors duration-200"
               >
                 <span class="sr-only">{{ social.name }}</span>
-                <!-- Dynamic icon berdasarkan social.icon dari content.js -->
+                <!-- Dynamic icon berdasarkan social.icon dari multilang-content.js -->
                 <i :class="`pi ${social.icon} text-xl`"></i>
               </a>
             </div>
